@@ -3,7 +3,7 @@
 
 ## Project Goal
 
-
+## Data
 
 ## Project Structure
 - `TimeDiaries_preprocessing.ipynb`, `Bluetooth_preprocessing.ipynb`, `Location_preprocessing.ipynb`: these notebooks were used to clean and pre-process data coming from timediaries, bluetooth, and GPS respectively.
