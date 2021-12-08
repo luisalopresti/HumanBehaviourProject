@@ -6,7 +6,7 @@
 
 ## Data
 Data were collected for two weeks, from 13 October 2021 to 27 October 2021, in the context of the [WeNet](https://www.internetofus.eu/) project.
-To collect those data, each partecipant used the iLog app, installed on their mobile devices.
+To collect these data, each partecipant used the iLog app, installed on their mobile devices.
 This project uses data collected by a single person, namely myself.
 
 ## Project Structure
