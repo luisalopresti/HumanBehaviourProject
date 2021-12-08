@@ -1,5 +1,5 @@
 # Habits
-This project aims to study habits and routine on an individual basis. It has been developed in the context of the course \_Studies on Human Behaviour\_, offered by the University of trento, during the academic year 2021/22.
+This project aims to study habits and routine on an individual basis. It has been developed in the context of the course \Studies on Human Behaviour\, offered by the University of trento, during the academic year 2021/22.
 
 ## Project Goal
 The goal of the project is to examine activities and habits, taking into account the four main triggers influencing the development of a habit, namely time, location, mood, and people. 
