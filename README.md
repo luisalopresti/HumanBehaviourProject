@@ -12,14 +12,14 @@
 - `activity-during-day.R`: plot to visualize how the different activities distribute during the hours of the day.
 - `maps_data_preparation-ipynb`: used to prepare data for the creation of the following maps.
 - `map_all_locations.ipynb`: projects on a map all the GPS locations collected during the two weeks of data collections, and groups them in clusters; when available, the markers also report data coming from timediaries.
-- `bluetooth_map-ipynb`: prodices a map focused on social interactions by location. Markers are colored differently according to the number of people around in that specific location, on average (zero, between 1 and 3, 4 or more).
+- `bluetooth_map-ipynb`: produces a map focused on social interactions by location. Markers are colored differently according to the number of people around in that specific place, on average (zero, between 1 and 3, 4 or more).
 - `mood_map_folium.ipynb`: the focus of this map is to represent activities by locations: for each location, it reports the top 3 most frequent activities the user reported to have done there. It also allows to have an idea of the points of interest, as markers are colored by frequence of attendance of the place.
-- `BBN_data_preprocessing.ipynb`: notebook used to pre-process data before feeding them into the Bayesian Network: data were grouped into homogeneous categories, missing values were covered, and so on.
+- `BBN_data_preprocessing.ipynb`: notebook used to pre-process data before feeding them into the Bayesian Network: data concerning activities were grouped into homogeneous categories, missing values were covered, places were recoded, and a new variable for time (morning/afternoon/evening) was created.
 - `BBN-complete.ipynb`: notebook defining the structure of the Bayesian Network and outputing the probabilities.
-- `BN_interface.py`: a simple interface produced using Tkinter, which allow to interact with the Bayesian Network and get conditional probabilities concerning the activity that would be performed, provided some evidence for the other variables (time of the day, emotional state, location, and number of people).
+- `BN_interface.py`: a simple interface produced using tkinter, which allows to interact with the Bayesian Network and get conditional probabilities concerning the activity that would be performed, provided some evidence for the other variables (time of the day, emotional state, location, and number of people).
 
 ## Important note:
-The result of the Bayesian Network in terms of probabilities are NOT meant to be generalized, rather they are specific for the user to which the data refers to, and most likely, also to the specific timeframe considered. Different users may have very different results. 
+The result of the Bayesian Network in terms of probabilities are NOT meant to be generalized, rather they are specific to the user to which the data refers to, and most likely, also to the well-defined timeframe considered. Different users may have very different results. 
 
 ## Installing dependencies
 In order to install all the needed packages, use the following command:
