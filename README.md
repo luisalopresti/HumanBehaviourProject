@@ -9,7 +9,7 @@
 - `TimeDiaries_preprocessing.ipynb`, `Bluetooth_preprocessing.ipynb`, `Location_preprocessing.ipynb`: these notebooks were used to clean and pre-process data coming from timediaries, bluetooth, and GPS respectively.
 - `match_location_mood_bluetooth.ipynb`: this notebook was used to merge together the three files coming from the notebooks above, taking into account the different intervals of data collections, thus following specific criteria to merge them.
 - `chart-act-day.ipynb`: this notebook was used to produce a chart of activities divided by day of the week and to observe changes in behaviour between working days and weekends.
-- `activity-during-day.R`: plot to visualize how the different activities distributes during the hours of the day.
+- `activity-during-day.R`: plot to visualize how the different activities distribute during the hours of the day.
 - `maps_data_preparation-ipynb`: used to prepare data for the creation of the following maps.
 - `map_all_locations.ipynb`: projects on a map all the GPS locations collected during the two weeks of data collections, and groups them in clusters; when available, the markers also report data coming from timediaries.
 - `bluetooth_map-ipynb`: prodices a map focused on social interactions by location. Markers are colored differently according to the number of people around in that specific location, on average (zero, between 1 and 3, 4 or more).
