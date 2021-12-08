@@ -1,12 +1,13 @@
-# Human Behaviour: studies on habits
-
+# Habits
+This project aims to study habits and routine on an individual basis. It has been developed in the context of the course \_Studies on Human Behaviour\_, offered by the University of trento, during the academic year 2021/22.
 
 ## Project Goal
-
+The goal of the project is to examine activities and habits, taking into account the four main triggers influencing the development of a habit, namely time, location, mood, and people. 
 
 ## Data
 Data were collected for two weeks, from 13 October 2021 to 27 October 2021, in the context of the [WeNet](https://www.internetofus.eu/) project.
 To collect these data, each partecipant used the iLog app, installed on their mobile devices.
+The data collected are both coming from mobile sensors and self-reported data, as the app would send questions to the partecipant every half an hour.
 This project uses data collected by a single person, namely myself.
 
 ## Project Structure
